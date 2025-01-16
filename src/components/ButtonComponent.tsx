@@ -6,7 +6,7 @@ const ButtonComponent = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <View style={styles.container}>
+    <View>
       <Button
         title={`Click Me ---- ${count}`}
         onPress={() => setCount(count + 1)}

@@ -3,25 +3,15 @@ import React from 'react';
 
 const ViewComponent = () => {
   return (
-    <View style={styles.container}>
-      <View style={styles.boxContainer}>
-        <View style={styles.skyBox}></View>
-        <View style={styles.emeraldBox}></View>
-        <View style={styles.redBox}></View>
-      </View>
+    <View style={styles.boxContainer}>
+      <View style={styles.skyBox}></View>
+      <View style={styles.emeraldBox}></View>
+      <View style={styles.redBox}></View>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
-    margin: 0,
-    paddingTop: 10,
-    paddingBottom: 10,
-    paddingLeft: 20,
-    paddingRight: 20,
-  },
-
   boxContainer: {
     gap: 10,
     flexDirection: 'row',
