@@ -13,7 +13,7 @@ const ImageComponent = () => {
   );
 };
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
   container: {
     margin: 0,
     paddingTop: 10,
