@@ -7,6 +7,7 @@ import {ScrollView, StyleSheet, Text, View} from 'react-native';
 import NestedScrollViewComponent from './src/components/NestedScrollViewComponent';
 import StylingComponent from './src/components/StylingComponent';
 import FlexLayout from './src/components/FlexLayout';
+import TouchableComponent from './src/components/TouchableComponent';
 
 function App(): React.JSX.Element {
   return (
@@ -23,6 +24,7 @@ function App(): React.JSX.Element {
         <NestedScrollViewComponent />
         <StylingComponent />
         <FlexLayout />
+        <TouchableComponent />
       </ScrollView>
       {/* <Text style={styles.textBottom}>This wont move</Text> */}
     </View>
