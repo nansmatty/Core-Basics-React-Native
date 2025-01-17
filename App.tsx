@@ -6,6 +6,7 @@ import TextInputComponent from './src/components/TextInputComponent';
 import {ScrollView, StyleSheet, Text, View} from 'react-native';
 import NestedScrollViewComponent from './src/components/NestedScrollViewComponent';
 import StylingComponent from './src/components/StylingComponent';
+import FlexLayout from './src/components/FlexLayout';
 
 function App(): React.JSX.Element {
   return (
@@ -21,6 +22,7 @@ function App(): React.JSX.Element {
         <TextInputComponent />
         <NestedScrollViewComponent />
         <StylingComponent />
+        <FlexLayout />
       </ScrollView>
       {/* <Text style={styles.textBottom}>This wont move</Text> */}
     </View>
